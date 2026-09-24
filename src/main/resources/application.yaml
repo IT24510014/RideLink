@@ -1,12 +1,8 @@
-server:
-  port: 8082
-
 spring:
   application:
     name: driver-vehicle-service
+  mongodb:
+    uri: ${MONGODB_URI}
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: health,info
+server:
+  port: 8082
