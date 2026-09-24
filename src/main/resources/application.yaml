@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: driver-vehicle-service
+  mongodb:
+    uri: ${MONGODB_URI}
+
+server:
+  port: 8082
